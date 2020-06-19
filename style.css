@@ -1,0 +1,1317 @@
+
+
+body
+{
+    background-color: #D3D3D3;
+    font-family: "Comic Sans MS";
+    color:rgb(99,87,89);
+}
+
+
+.dropdown
+{
+    display: none;
+}
+.dropbtn
+{
+    background-color: rgb(99,87,89);
+    color: white;
+    padding: 0px;
+    border: none;
+    cursor: pointer;
+    display:block;
+    margin: 0;
+    font-size: 26pt;
+    width: 12%;
+}
+.dropbtn:active, .dropbtn:focus 
+{
+  outline: none !important;
+}
+.dropbtn::-moz-focus-inner 
+{
+  border: 0 !important;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus 
+{
+    background-color: rgb(99,87,89);
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content 
+{
+    margin-top: -1.8%;
+    font-size: 14pt;
+    display: none;
+    position: absolute;
+    background-color: rgb(99,87,89);
+    min-width: 160px;
+    box-shadow: 0px 20px 28px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a 
+{
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover 
+{
+    background-color: #775B5B
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show 
+{
+    display:block;
+}
+
+
+
+
+.container
+{
+    max-width: 1000px;
+    margin: 0 auto;
+    height:auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #fff;
+    border: 1px solid  #D3D3D3;
+}
+#high-header
+{
+    height:25px;
+}
+.high-head
+{
+  float:left;
+  margin-left:2%;
+  font-size: 13pt;
+}
+a
+{
+    text-decoration: none;
+    color:rgb(99,87,89);
+}
+a:hover
+{
+    color:rgb(0, 0, 0);
+}
+#high_head_1
+{
+  float:left;
+  margin-left: 0.3%;
+  font-size: 13pt;
+ 
+  
+}
+#high_head_2
+{
+  float: left;
+  margin-left: 0.3%;
+  font-size: 13pt;
+ 
+}
+
+#img_head_1
+{
+    float: left;
+    width:2.5%;
+    height:30px;
+    margin: 0 auto;
+    margin-left:35%;
+    
+}
+#img_head_2
+{
+    float: left;
+    width:2.5%;
+    height:30px ;
+    margin: 0 auto;
+    margin-left:2%;
+}
+header
+{
+position: inherit;
+ max-width: 1000px;
+ height:122px;
+ background-color: rgb(205, 192, 177);
+ margin-top: 0.5%;
+}
+#imd_ntd
+{
+display:block;
+float: left;
+ width:19%;
+ margin-left: -1.5%;
+ margin-top: 1%;
+}
+.main-head
+{
+ float: left;
+ margin-top: 4.2%;
+ font-weight: bold;
+ margin-left: 1%;
+ font-size:13pt;
+ transition: 1s;
+}
+.main-head:hover 
+{
+    transform: scale(1.05);
+}
+.main-head:hover .head_link
+{
+    color:rgb(0, 0, 0);
+}
+.main-head:nth-child(2)
+{
+    margin-left: -1.5%;
+}
+#input_text
+{
+    display: block;
+    float: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 4.3%;
+    width: 25%;
+    height:20px;
+    margin-left: 1.5%;
+    border:0px solid;
+    padding-left:10px ;
+    font-family: "Comic Sans MS";
+    outline: none;
+}
+#find
+{
+    outline: none;
+    display: block;
+    float: left;
+    border-bottom-right-radius:10px;
+    border-top-right-radius:10px;
+    margin-top: 4.3%;
+    width: 3%;
+    height:22px;
+    margin-left:0%;
+    border:0px solid;
+    background-color: white;
+    cursor: pointer;
+ }
+ #img_find
+ {
+     width: 150%;
+     height:150%;
+     margin-top: -15%;
+ }
+ #cart
+ {
+     display: block;
+     float: left;
+     width:7%;
+     margin-top:2.3%;
+     transition: 1s;
+     cursor: pointer;
+ }
+ #cart:hover
+ {
+     transform: scale(1.3);
+ }
+ #cart:hover + #CountCart
+ {
+     color:rgb(0, 0, 0);
+ }
+ #CountCart
+ {
+     display: block;
+     float: left;
+     font-size:13pt;
+     font-weight: bold;
+     margin-top:4.5%;
+     margin-left:-1.5%;
+ }
+ .sales
+ {
+     padding-left:2%;
+     height:390px;
+     margin-bottom: -1%;
+ }
+ .rectangle
+ {
+     float: left;
+     width:31%;
+     height:90%;
+     background-color: rgb(238,227,219);
+     margin-right: 2%;
+     margin-top: 1%;
+     margin-left: 0.3%;
+     transition: 1s;
+     text-align: center;
+     padding-top: 1%;
+     cursor: pointer;
+ }
+ .rectangle:nth-child(3)
+ {
+     margin-right: 0px;
+ }
+ .rectangle:hover
+ {
+    transform:scale(1.05);
+ }
+ .img_main
+ {
+     width:92%;
+     height:82%;
+     margin:auto;
+ }
+ .rectangle .starsSales
+ {   position: absolute;
+     display:block;
+      float: left;
+     width:110px;
+     height: 110px;
+     margin-top: -15px;
+     
+ }
+ .btn_buy
+ {
+     position: relative;
+     font-family:"Comic Sans MS";
+     font-weight: bold;
+     font-size: 14pt;
+    width:79.5%;
+    height:12%;
+    outline: none;
+    border:0px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(205, 192, 177);
+    color:rgb(99,87,89);
+    border-radius: 10px;
+    margin-left: 1.5%;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.2s;
+ }
+ .btn_buy:hover
+ {
+     background-color: rgb(99,87,89);
+     color: seashell;
+ }
+ .button_line
+ {
+     position: absolute;
+     display:block;
+ }
+ .button_line_top
+ {
+     top:0;
+     left:-100%;
+     width:100%;
+     height:2px;
+     background:linear-gradient(90deg,transparent,rgb(205, 192, 177));
+     border-radius: 10px;
+
+ }
+ .btn_buy:hover .button_line_top
+ {
+     left:100%;
+     transition: 1s;
+     transition-delay: 0.25s;
+ }
+ .button_line_bottom
+ {
+     bottom:0;
+     left:100%;
+     width:100%;
+     height:2px;
+     background:linear-gradient(270deg,transparent,rgb(205, 192, 177));
+     border-radius: 10px;
+
+ }
+ .btn_buy:hover .button_line_bottom
+ {
+     left:-100%;
+     transition: 1s;
+     transition-delay: 0.25s;
+ }
+ .button_line_left
+ {
+     bottom:0;
+     left:0%;
+     top:100%;
+     width:2px;
+     height:100%;
+     background:linear-gradient(270deg,transparent, rgb(205, 192, 177));
+     border-radius: 10px;
+
+ }
+ .btn_buy:hover .button_line_left
+ {
+     top:-100%;
+     transition: 1s;
+     transition-delay: 0.25s;
+ }
+ .button_line_right
+ {
+     bottom:0;
+     right:0%;
+     top:-100%;
+     width:2px;
+     height:100%;
+     background:linear-gradient(270deg,transparent,rgb(205, 192, 177));
+     border-radius: 10px;
+
+ }
+ .btn_buy:hover .button_line_right
+ {
+     top:100%;
+     transition: 1s;
+     transition-delay: 0.25s;
+ }
+ .bookMarks
+ {
+     display: block;
+     float: right;
+     width:12%;
+     margin-right:3%;
+     cursor: pointer;
+     transition:1.5s;
+ }
+ .bookMarks:hover
+ {
+    transform: rotate(360deg);
+ }
+.liderSales
+{   
+    width:100%;
+    height:40px;
+    background-color: rgb(205, 192, 177);
+    color: rgb(99,87,89);
+    text-align: center;
+    vertical-align: center;
+    border:0px;
+    font-weight: bold;
+    font-family: "Comic Sans MS";
+    font-size: 19pt;
+}
+.forLiderSales
+{
+   position: relative;
+    background-color: rgb(238,227,219);
+    width: 94%;
+    margin: 0 auto;
+    margin-top: 2%; 
+    height:420px;
+    padding-left:2%;
+    padding:1%;
+
+    
+}
+.rectangleSalesLider
+{
+    float: left;
+     width: 30.5%;
+     height:99%;
+     border:2px solid rgb(99,87,89);
+     text-align: center;
+     margin-left: 2.9%;
+     transition: 1s;
+     cursor: pointer;
+     
+     
+}
+.rectangleSalesLider:hover
+{
+    transform: scale(1.05);
+}
+.rectangleSalesLider:nth-child(1)
+{
+ margin-left: 0%;
+}
+.rectangleSalesLider:nth-child(3)
+{
+ margin-left: 3.2%;
+}
+.img_lider
+{
+ width:100%;
+ height: 75%;
+
+}
+.liderMarks
+{
+    width:98%;
+    height:10%;
+    text-align: center;
+    vertical-align: middle;
+}
+.rectangleSalesLider .btn_buy
+{
+    margin-top: 6%;
+    height:9%;
+}
+.rectangleSalesLider .bookMarks
+{
+    width:15%;
+    margin-left: 1%;
+    margin-top: 5%;
+}
+footer
+{
+    display: block;
+    margin-top: 3%;
+    width:100%;
+    height:250px;
+    background-color: rgb(205, 192, 177);
+}
+.img_footer
+{
+    float: left;
+    width:30%;
+    margin-top: 4%;
+    margin-left: 3%;
+    cursor: pointer;
+}
+.For_footer_text_bold
+{   float: left;
+    width:66.7%;
+    height:50px;
+}
+.footer_text_bold:nth-child(1)
+{
+    margin-left: 0%;
+}
+.footer_text_bold
+{
+    display: block;
+    float: left;
+    margin-left: 16%;
+    font-size: 17pt;
+    font-weight: bold;
+}
+.footer_text_1
+{   
+    line-height: 10px;
+    float: left;
+    font-size: 14pt;
+    margin-left: 0%;;
+}
+.footer_text_2
+{   
+    line-height: 10px;
+    float: left;
+    font-size: 14pt;
+    margin-left: 5%;;
+}
+.footer_text_3
+{
+    line-height: 10px;
+    float: left;
+    font-size: 14pt;
+    margin-left: 7%;;
+}
+.line
+{   float: left;
+    width:60%;
+    border:2px solid rgb(99,87,89);
+}
+#footer_icons_1
+{
+clear: both;
+ display: block;
+ float: right;
+ width:40px;
+ margin-top: 0.1%;
+ margin-right:10%;
+ cursor: pointer;
+}
+#footer_icons_2
+{
+ display: block;
+ float: right;
+ width:100px;
+ margin-right:-2%;
+ cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width:1015px)
+{
+    .container
+    {
+        max-width:750px;
+    }
+    .high-head
+    {
+        font-size: 12pt;
+    }
+    #high_head_1
+    {
+        font-size: 12pt;
+    }
+    #high_head_2
+    {
+        font-size: 12pt;
+    }
+    #img_head_1
+    {
+        margin-left:10%;
+        width:2.9%;
+        height:25px; 
+    }
+    #img_head_2
+    {
+        width:2.9%;
+        height:25px; 
+    }
+    header
+    {
+     height:100px;
+     margin-top: 0.5%;
+    }
+    #cart
+    {   margin-left: 68%;
+        margin-top: -12.2%;
+        width: 5.6%;
+    }
+    #CountCart
+    {
+        font-size:12pt;
+        margin-left: 73%;
+        margin-top: -10.8%;
+        font-weight: normal;
+    }
+    #img_find
+    {
+        width: 230%;
+        height:150%;
+        margin-top: -30%;
+        margin-left: -50%;
+    }
+    .btn_buy
+    {
+        font-size: 12pt;
+        width:75%;
+        height:11%;
+        margin-top: 2%;
+    }
+    .bookMarks
+    {
+        
+        width:15%;
+        margin-right:3%;
+        margin-top:2%;
+    }
+    .liderSales
+    {
+        font-size: 16pt;
+        padding-top: 1%;
+    }
+    .forLiderSales
+    {
+        height: 360px;
+    }
+    footer
+    {
+        display: block;
+        margin-top: 3%;
+        width:100%;
+        height:250px;
+        background-color: rgb(205, 192, 177);
+    }
+    .img_footer
+    {
+        margin-top: 9%;
+        margin-left: 3%;
+    }
+    
+    .footer_text_bold:nth-child(1)
+    {
+        margin-left: 0%;
+    }
+    .footer_text_bold
+    {
+       
+        font-size: 15pt;
+    }
+    .footer_text_1
+    {   
+        font-size: 12pt;
+    }
+    .footer_text_2
+    {   
+        font-size: 12pt;
+    }
+    .footer_text_3
+    {
+        font-size: 12pt;
+    }
+    
+        
+}
+@media screen and (max-width:792px)
+{
+    .container
+    {
+        max-width:600px;
+    }
+    .high-head
+    {
+        font-size: 9pt;
+    }
+    #high_head_1
+    {
+        font-size: 9pt;
+    }
+    #high_head_2
+    {
+        font-size: 9pt;
+    }
+    #img_head_1
+    {
+        margin-left:26%;
+        width:2.9%;
+        height:20px; 
+    }
+    #img_head_2
+    {
+        width:2.9%;
+        height:20px; 
+    }
+    header
+    {
+     height:100px;
+     margin-top: -1%;
+    }
+    #imd_ntd
+    {
+        width:25%;
+    }
+    #input_text
+    {
+        margin-top:2%;
+        margin-left: 7%;
+        height: 21%;
+    }
+    #find
+    {
+        margin-top: 2.05%;
+        
+    }
+    #img_find
+    {
+        width: 320%;
+        height:150%;
+        margin-top: -40%;
+        margin-left: -90%;
+    }
+    #cart
+    {   
+        margin-left: 40%;
+        margin-top: -6.8%;
+        width: 9.6%;
+    }
+    #CountCart
+    {
+        font-size:12pt;
+        margin-left: 72%;
+        margin-top: -8.3%;
+        font-weight: bold;
+    }
+    .main-head:nth-child(2)
+    {
+        margin-left: 3%;
+    }
+    .main-head
+    {
+        margin-left: 3%;
+    }
+    .btn_buy
+    {
+        font-size: 11pt;
+        width:72%;
+        height:10%;
+        margin-top: 2%;
+    }
+    .bookMarks
+    {
+        
+        width:17%;
+        margin-right:3%;
+        margin-top:2%;
+        
+    }
+    .liderSales
+    {
+        font-size:15pt;
+        margin-top:1%;
+        padding-top: 1%;
+    }
+    
+    .forLiderSales
+    {
+        height:320px;
+    }
+    .sales
+    {
+        padding-left:2%;
+        margin-bottom: 1.5%;
+        height:310px;
+    }
+    .rectangleSalesLider .btn_buy
+    {
+        margin-top: 4%;
+        height:9%;
+    }
+    .rectangleSalesLider .bookMarks
+    {
+        width:17%;
+        margin-top: 3%;
+    }
+    footer
+    {
+        height:230px;
+    }
+    .img_footer
+    {
+        margin-top: 12%;
+    }
+    .For_footer_text_bold
+    {   
+        width:60%;
+    }
+    
+    .footer_text_bold
+    {
+        font-size: 12pt;
+    }
+    .footer_text_1
+    {   
+        
+        font-size: 9pt;
+    }
+    .footer_text_2
+    {   
+        font-size: 9pt;
+        margin-left: 4%;;
+    }
+    .footer_text_3
+    {
+        font-size: 9pt;
+        margin-left: 11.5%;;
+    }
+    .line
+    {   
+        width:60%;
+        border:1px solid rgb(99,87,89);
+    }  
+}
+
+
+@media screen and (max-width:624px) 
+{
+    .container
+    {
+    max-width: 480px;
+    } 
+     .dropdown
+    {
+    display: block;
+    }
+    .high-head
+    {
+    display: none;
+    }
+    #high_head_1
+    {
+    margin-top: -8%;
+    margin-left: 39%;
+    font-size: 13pt;
+    }
+    #high_head_2
+    {
+    margin-top: -8%;
+    margin-left: 65%;
+    font-size: 13pt;
+    }
+    #img_head_1
+    {
+    margin-top: -9%;
+    width: 8.5%;
+    height: 145%;
+    margin-left: 30%;
+    }
+    #img_head_2
+    {
+    margin-top: -9%;
+    width: 8.5%;
+    height: 145%;
+    margin-left: 57%;
+    }
+    header
+    {
+    margin-top: 4%;
+    }
+    #imd_ntd
+    {
+    margin-top: 4%;
+    margin-left: 1%;
+    }
+    .main-head
+    {
+    display: none;
+    }
+    #input_text
+    {
+    height: 50%;
+    margin-top: 5%;
+    margin-left: 0;
+    width: 30%;
+    font-size: 13pt;
+    }
+    #find
+    {
+    height: 52.4%;
+    width: 10%;
+    margin-top: 4.9%;
+    margin-left: -1%;
+    }
+    #img_find
+    {
+        width: 200%;
+        height:150%;
+        margin-top: -27%;
+        margin-left: -35%;
+    }
+    #cart
+    {
+    width: 15%;
+    margin-top: 4%;
+    margin-left: 0%;
+    }
+    #CountCart
+    {
+    margin-left: 79%;
+    margin-top: -12%;
+    font-size: 12pt;
+    }
+    #myDropdown
+    {
+    margin-top: -1%;
+    }
+    .rectangle
+    {
+    width: 80%;
+    height: 125%;
+    margin-top: 5%;
+    margin-left: 9%;
+    }
+    .btn_buy
+    {
+    font-size: 13pt;
+    }
+    .starsSales
+    {
+    width: 15%;
+    }
+   .bookMarks
+   {
+    height: 15%;
+    width: 15%;
+    margin-top: 0%;
+   }
+   
+   .liderSales
+   {
+    margin-top: 51em;
+    padding-top: 3%;
+    font-size: 14pt;
+   }
+   .forLiderSales
+   {
+    height: 1200px;
+    width: 80%;
+   }
+   .rectangleSalesLider
+   {
+    width: 90%;
+    height: 31.5%;
+    margin-top: 4%;
+    margin-left: 4%;
+   }
+   .rectangleSalesLider:nth-child(1)
+    {
+    margin-top: 4%;
+    margin-left: 4%;
+    }
+    .rectangleSalesLider:nth-child(3)
+    {
+    margin-left: 4%;
+    }
+    .liderMarks
+    {
+    width: 91%;
+    }
+
+    footer
+    {
+    height: 420px;
+    }
+    .footer_text_bold
+    {
+    font-size: 14pt;
+    }
+    .footer_text_1
+    {
+    margin-left: 8%;
+    margin-top: 10%;
+    font-size: 12pt;
+    }
+    .footer_text_2
+    {
+    margin-top: 30%;
+    margin-left: -23.5%;
+    font-size: 12pt;
+    }
+    .footer_text_3
+    {
+    margin-top: 60%;
+    margin-left: -26%;
+    font-size: 12pt;
+    }
+    .line
+    {
+    margin-top: 12%;
+    margin-left: 35%;
+    }
+    #footer_icons_1
+    {
+    margin-top: 2%;
+    }
+    #footer_icons_2
+    {
+    margin-top: 1.5%;
+    margin-right: -5%;
+    }
+}   
+
+@media screen and (max-width:481px) 
+{
+    .container
+    {
+    max-width: 360px;
+    } 
+     .dropdown
+    {
+    display: block;
+    }
+    .high-head
+    {
+    display: none;
+    }
+    #high_head_1
+    {
+    margin-top: -9%;
+    margin-left: 1%;
+    font-size: 11pt;
+    }
+    #high_head_2
+    {
+    margin-top: -9%;
+    margin-left: 61%;
+    font-size: 11pt;
+    }
+    #img_head_1
+    {
+    margin-top: -10%;
+    width: 8.5%;
+    height: 145%;
+    margin-left: 25%;
+    }
+    #img_head_2
+    {
+    margin-top: -10%;
+    width: 8.5%;
+    height: 145%;
+    margin-left: 19%;
+    }
+    header
+    {
+    margin-top: 5.5%;
+    }
+    #imd_ntd
+    {
+    margin-top: 7%;
+    margin-left: 1%;
+    }
+    .main-head
+    {
+    display: none;
+    }
+    #input_text
+    {
+    height: 50%;
+    margin-top: 6%;
+    margin-left: 0;
+    width: 30%;
+    font-size: 13pt;
+    }
+    #find
+    {
+    height: 52%;
+    width: 10%;
+    margin-top: 6%;
+    margin-left: -1%;
+    }
+    #cart
+    {
+    width: 15%;
+    margin-top: 7%;
+    margin-left: -2%;
+    }
+    #CountCart
+    {
+    margin-left: 77%;
+    margin-top: -12%;
+    font-size: 11pt;
+    }
+    .rectangle
+    {
+    width: 80%;
+    height: 125%;
+    margin-top: 5%;
+    margin-left: 10%;
+    }
+    .btn_buy
+    {
+    font-size: 13pt;
+    }
+    .starsSales
+    {
+    width: 15%;
+    }
+   .bookMarks
+   {
+    height: 15%;
+    width: 15%;
+    margin-top: 1%;
+   }
+   .liderSales
+   {
+    margin-top: 49.8em;
+    padding-top: 3%;
+    font-size: 14pt;
+   }
+   .forLiderSales
+   {
+    height: 1200px;
+    width: 80%;
+   }
+   .rectangleSalesLider
+   {
+    width: 90%;
+    height: 31.5%;
+    margin-top: 4%;
+    margin-left: 4%;
+   }
+   .rectangleSalesLider:nth-child(1)
+    {
+    margin-top: 4%;
+    margin-left: 4%;
+    }
+    .liderMarks
+    {
+    width: 91%;
+    }
+
+    footer
+    {
+    height: 420px;
+    }
+    .footer_text_bold
+    {
+    font-size: 14pt;
+    }
+    .footer_text_1
+    {
+    margin-left: 8%;
+    margin-top: 10%;
+    font-size: 11pt;
+    }
+    .footer_text_2
+    {
+    margin-top: 33%;
+    margin-left: -28%;
+    font-size: 11pt;
+    }
+    .footer_text_3
+    {
+    margin-top: 69%;
+    margin-left: -34.5%;
+    font-size: 11pt;
+    }
+    .line
+    {
+    margin-top: 17%;
+    margin-left: 35%;
+    }
+    #footer_icons_1
+    {
+    margin-top: 2%;
+    }
+    #footer_icons_2
+    {
+    margin-top: 1.5%;
+    margin-right: -7%;
+    }
+}  
+
+@media screen and (max-width:383px)
+{
+    .container
+    {
+    max-width: 360px;
+    } 
+    .footer_text_3
+    {
+    margin-top: -5%;
+    margin-left: 40.5%;
+    }
+    .line
+    {
+    margin-top: 5%;
+    }
+    #img_find
+    {
+        width: 190%;
+        height:120%;
+        margin-top: -7%;
+        margin-left: -35%;
+    }
+    .rectangle
+    {
+    margin-left: 9%;
+    }
+}
+@media screen and (max-width:376px)
+{
+    .footer_text_3
+    {
+    margin-top: -5%;
+    margin-left: 41%;
+    }
+    #img_head_1
+    {
+    margin-top: -11%;
+    }
+    #high_head_1
+    {
+    margin-left: 34%;
+    }
+    #img_head_2
+    {
+    margin-top: -11%;
+    margin-left: 53%;
+    }
+}
+@media screen and (max-width:376px)
+{
+    .footer_text_2
+    {
+    margin-left: 41%;
+    margin-top: -4%;
+    }
+    header
+    {
+        margin-top: 6%;
+    }
+}
+@media screen and (max-width:321px)
+{
+    .container
+    {
+    max-width: 320px;
+    } 
+    #img_head_1
+    {
+    height: 110%;
+    margin-top: -12.5%;
+    margin-left: 16%;
+    }
+    #high_head_1
+    {
+    margin-top: -11.5%;
+    margin-left: 26%;
+
+    }
+    #img_head_2
+    {
+    width: 8%;
+    height: 130%;
+    margin-top: -12.5%;
+    margin-left: 51%;
+    }
+    #high_head_2
+    {
+    margin-top: -11.5%;
+    margin-left: 59%;
+    }
+    header
+    {
+        margin-top: 7%;
+    }
+    #myDropdown
+    {
+        margin-top: -2%;
+    }
+    #CountCart
+    {
+        margin-left: 78%;
+    }
+    .rectangle
+    {
+    height: 105%;
+    }
+    .liderSales
+    {   
+    margin-top: 38.9em;
+    }
+    .forLiderSales
+    {
+    height: 900px;
+    }
+    .rectangleSalesLider
+    {
+    height: 31.5%;
+    }
+    .footer_text_bold
+    {
+    font-size: 12pt;
+    }
+    .footer_text_1
+    {
+    font-size: 10pt;
+    }
+    .footer_text_2
+    {
+    font-size: 10pt;
+    margin-left: -30%;
+    margin-top: 38%;
+    }
+    .footer_text_3
+    {
+    font-size: 10pt;
+    margin-top: -3%;
+    }
+}
